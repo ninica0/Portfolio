@@ -2,40 +2,255 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Joan&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Corben:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Joan&display=swap');
 
 *{
     padding: 0;
     margin: 0;
-    box-sizing: 0;
+    /* box-sizing: 0; */
     text-decoration: none;
   
 }
+/* header{
+    height: 85px;
+    border: 1px solid white;
+} */
 
 .header{
     display: flex;
     align-items: center;
     justify-content:center;
     width: 100%;
-    gap: 150px;
-    padding-top: 30px;
+    gap: 300px;
+    padding-top: 25px;
+    
 }
+
+
 
 .header h1{
     color: aliceblue;
+    font-size: 36px;
     font-family: "Bebas Neue", sans-serif;
 }
+/* header img{
+  
+    width: 100%;
+} */
 
 nav{
     display: flex;
     align-items: center;
-   gap: 50px;
+    gap: 50px;
 }
 nav a{
     color: aliceblue;
+   font-size:14px ;
     font-family: "Inter", sans-serif;
 }
 
 
 body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding-left: 150px; */
     background-color: rgba(47, 62, 96, 1);
 }
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   width: 100%;
+   gap: 130px;
+   padding-top: 70px;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.titulo h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 100px;
+}
+
+.titulo p{
+    font-family: "Corben", serif;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+}
+
+.about img{
+    padding-top: 70px;
+}
+
+.me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.abtme{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 30px;
+}
+.abtme h1{
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+}
+.abtme p{
+    width: 400px;
+    font-size: 24px;
+    color: white;
+    font-family: "Corben", serif;
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+
+.projetos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+}
+
+.projetos img{
+    padding-top: 70px;
+}
+
+.pjt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.projects{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 30px;
+}
+.projects h1{
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+}
+.projects p{
+    width: 360px;
+    font-size: 24px;
+    color: white;
+    font-family: "Corben", serif;
+}
+
+.proj{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.trabalhos{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 150px;
+    padding-right: 200px;
+  
+
+}
+
+.trabalhos h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;  
+    color: white;
+    padding-top: 30px;
+}
+
+.trabalhos p{
+    font-size:18px ;
+    font-family: "Corben", serif;
+    color: white;
+}
+
+.trabalhos button{
+    height: 35px;
+    width: 75px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(146, 160, 255, 1);
+}
+
+.trabalhos button a{
+    font-family:"Bebas Neue", sans-serif ;
+}
+
+.trabalhos button:hover{
+    background-color: rgb(106, 106, 255);
+    width: 80px;
+    height: 40px;
+    transition: 0.5s;
+}
+
+footer{
+    height: 100px;
+    /* padding-top: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    
+}
+
+footer p{
+    font-size: 16px;
+    color: white;
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+}
+
+.linha{
+    padding-top: 100px;
+}
+
